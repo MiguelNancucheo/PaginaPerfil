@@ -2,5 +2,5 @@
 
   Ejercicio de pagina de perfil
     navedar
-    tarjeta usuario
+    tarjeta usuario/cpnexion
     flex
