@@ -1,0 +1,58 @@
+/*Estilo barra navegacion*/
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+/* head*/
+.nav {
+    background-color: black;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 80px;
+}
+.nav-title {
+    color: white;
+    font-size: 40px;
+    flex: 1;
+}
+
+.nav-links {
+    display: flex;
+    justify-content:space-around;
+    flex: 1;
+    
+}
+.tbn_nav {
+    flex: 1;
+}
+a {
+    color: #d5e6d5;
+    text-decoration: none;
+    font-size: 20px;
+}
+.active {
+    color: white;
+}
+.btn {
+    background-color: rgb(110, 138, 128);
+    color: white;
+    font-size: 20px;
+}
+
+/* cuerpo*/
+.main {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.col_arizq, .col_arder{
+    border-color: black;
+}
+.col_arizq {
+    flex: 3;
+}
+.col_arder {
+    flex: 2;
+}
