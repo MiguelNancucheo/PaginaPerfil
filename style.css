@@ -14,23 +14,27 @@
 }
 .nav-title {
     color: white;
-    font-size: 40px;
+    font-size: 50px;
     flex: 1;
+    text-align: right;
 }
 
 .nav-links {
     display: flex;
-    justify-content:space-around;
-    flex: 1;
+    justify-content:space-around; 
+    flex: 2;
     
 }
 .tbn_nav {
-    flex: 1;
+    flex: 2;
+    /* justify-content:center;  */
+    /* align-content: center; */
+    /* align-self: center; */
 }
 a {
     color: #d5e6d5;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 24px;
 }
 .active {
     color: white;
@@ -55,4 +59,74 @@ a {
 }
 .col_arder {
     flex: 2;
+}
+
+
+/*tarjeta*/
+.conten_tarjeta {
+    width: 500px;
+    margin: auto;
+    border: 3px solid dimgray;
+    border-top-width: 60px;
+    position: relative;
+    padding: 30px 20px; 
+}
+.img_user {
+    height: 70px;
+    border: 3px solid white;
+    position: absolute;
+    top: -45px;
+    border-radius: 50px;
+}
+
+.text_usuario {
+    font-size: 40px;
+    
+}
+
+.ico_ficha {
+    height: 20px;
+}
+.conttar_linimg.{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.text_ubicacion{
+    font-size: 27px;
+}
+.texto {
+    font-size: 22px;
+}
+.link_por {
+    color: blue;
+}
+
+/*contenedor Educa*/
+.educa {
+    width: 540px;
+    margin: auto;
+    border: 3px solid dimgray;   
+    position: relative;
+    padding: 0px;
+}
+.edu_cabe {
+    background-color: dimgray;
+    color: white;
+    padding: 10px 20px;
+    margin: 0px;
+}
+
+.edu_linea1 {
+    font-size: 25px;
+    padding: 5px 20px;
+}
+.edu_linea2 {
+    font-size: 22px;
+    padding: 5px 20px;
+}
+.edu_linea3 {
+    font-size: 18px;
+    padding: 5px 20px;
 }

@@ -1,3 +1,6 @@
-# Barra de Navegación
+# Pagina de perfil
 
-Ejercicio de barra de navegación
+  Ejercicio de pagina de perfil
+    navedar
+    tarjeta usuario
+    flex
